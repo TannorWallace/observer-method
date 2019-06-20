@@ -10,7 +10,7 @@ label{
 button:hover{
   background-color: rgb(255, 0, 0) !important;
   color: rgba(0, 47, 255, 0.746) !important;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Righteous;
 box-shadow: 10px 10px 16px 25px;
 }
 input{
