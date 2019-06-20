@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1 class=" d-flex border border-dark justify-content-center">here we go</h1>
+
+  <div class="container-fluid bg-secondary">
+    <div id="house" class="row">
+
+
+    </div>
+    <form onsubmit="app.controllers.houseController.addHouse(event)">
+      <label for="size">Size:</label>
+      <input class="border border-dark" type="text" name="size">
+      <label for="story">Story:</label>
+      <input class="border border-dark" type="text" name="story">
+      <label for="bed-bath">bed-bath:</label>
+      <input class="border border-dark" type="text" name="bed-bath"><br>
+      <label for="acreage">Acreage:</label>
+      <input class="border border-dark" type="text" name="acreage">
+      <label for="price">Price:</label>
+      <input class="border border-dark" type="text" name="price">
+      <button type="submit" class="btn btn-warning btn-block border border-dark">Click the button</button>
+    </form>
+
+  </div>
+
+  <script src="app/main.js" type="module"></script>
+</body>
+
+</html>

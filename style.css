@@ -1,0 +1,19 @@
+*{
+  font-family: 'Electrolize', sans-serif;
+}
+
+label{
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+button:hover{
+  background-color: rgb(255, 0, 0) !important;
+  color: rgba(0, 47, 255, 0.746) !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: 10px 10px 16px 25px;
+}
+input{
+  background-color: blueviolet;
+  color:rgb(255, 255, 255);
+}
